@@ -11,9 +11,6 @@ def distinct(iterable):
   seen = set()
   for item in iterable:
     if item in seen:
-      print('======> ')
-      print('Skipping', item)
-      print('= = = = =')
       continue
     yield item
     seen.add(item)
