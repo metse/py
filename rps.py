@@ -1,3 +1,4 @@
+# rock paper scissors
 computer_choice = 'scissors'
 
 user_choice = input('Rock, paper or scissors?\n')
